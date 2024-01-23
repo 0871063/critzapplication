@@ -2,7 +2,6 @@ import React from 'react';
 import { View, Text, Button } from 'react-native';
 
 const HomeScreen = ({ route, navigation }) => {
-  const { score } = route.params;
 
   const handleNavigateQuiz = () => {
     // Save the score to MongoDB (implement MongoDB integration here)
